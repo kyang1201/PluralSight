@@ -9,7 +9,7 @@ export const defaultState = {
             name: "QA"
         }
     ],
-    group: [
+    groups: [
         {
             name: "To Do",
             id: "G1",
@@ -45,6 +45,27 @@ export const defaultState = {
             name: "Update component snapshots",
             id: "T3",
             group: "G2",
+            owner: "U1",
+            isComplete: false
+        },
+        {
+            name: "Other 1",
+            id: "T1",
+            group: "G3",
+            owner: "U2",
+            isComplete: false
+        },
+        {
+            name: "Other 2",
+            id: "T2",
+            group: "G3",
+            owner: "U1",
+            isComplete: false
+        },
+        {
+            name: "Other 3",
+            id: "T3",
+            group: "G3",
             owner: "U1",
             isComplete: false
         }
